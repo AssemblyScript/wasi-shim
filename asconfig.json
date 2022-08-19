@@ -1,0 +1,17 @@
+{
+  "options": {
+    "lib": "./assembly",
+    "use": [
+      "ASC_WASI=1",
+      "abort=wasi_abort",
+      "trace=wasi_trace",
+      "seed=wasi_seed",
+      "console=wasi_console",
+      "crypto=wasi_crypto",
+      "performance=wasi_performance",
+      "process=wasi_process",
+      "Date=wasi_Date"
+    ],
+    "exportStart": "_start"
+  }
+}
