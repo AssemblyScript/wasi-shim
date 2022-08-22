@@ -1,7 +1,7 @@
 {
   "name": "@assemblyscript/wasi-shim",
   "description": "Patches the AssemblyScript compiler to utilize WASI imports instead of Web APIs.",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "author": "The AssemblyScript Authors",
   "license": "Apache-2.0",
   "repository": {
@@ -19,7 +19,6 @@
   },
   "files": [
     "assembly/",
-    "media/",
     "asconfig.json"
   ],
   "funding": {

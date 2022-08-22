@@ -4,7 +4,7 @@
 
 Patches the AssemblyScript compiler to utilize WASI imports instead of Web APIs.
 
-<p align="center"><img src="./media/setup.png" alt="" width="400" /></p>
+<p align="center"><img src="https://github.com/AssemblyScript/wasi-shim/raw/main/media/setup.png" alt="" width="400" /></p>
 
 Note that this shim also serves a higher purpose, that is as an example of how to target any non-standard interface with the AssemblyScript compiler, including your own!
 
