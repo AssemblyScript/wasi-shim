@@ -1,6 +1,6 @@
 # WASI shim for AssemblyScript
 
-[![Test status](https://img.shields.io/github/workflow/status/AssemblyScript/wasi-shim/Test/main?label=test&logo=github)](https://github.com/AssemblyScript/wasi-shim/actions/workflows/test.yml) [![Publish status](https://img.shields.io/github/workflow/status/AssemblyScript/wasi-shim/Publish/main?label=publish&logo=github)](https://github.com/AssemblyScript/wasi-shim/actions/workflows/publish.yml)
+[![Test status](https://img.shields.io/github/actions/workflow/status/AssemblyScript/wasi-shim/test.yml?branch=main&label=test&logo=github)](https://github.com/AssemblyScript/wasi-shim/actions/workflows/test.yml) [![Publish status](https://img.shields.io/github/actions/workflow/status/AssemblyScript/wasi-shim/publish.yml?branch=main&label=publish&logo=github)](https://github.com/AssemblyScript/wasi-shim/actions/workflows/publish.yml)
 
 Patches the AssemblyScript compiler to utilize WASI imports instead of Web APIs.
 
