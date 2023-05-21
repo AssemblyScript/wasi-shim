@@ -37,14 +37,14 @@ export namespace wasi_console {
   }
 
   export function warn(message: string = ""): void {
-    let stdout = wasi_process.stdout;
+    let stdout = wasi_process.stderr;
     stdout.write("Warning: ");
     stdout.write(message);
     stdout.write("\n");
   }
 
   export function error(message: string = ""): void {
-    let stdout = wasi_process.stdout;
+    let stdout = wasi_process.stderr;
     stdout.write("Error: ");
     stdout.write(message);
     stdout.write("\n");
