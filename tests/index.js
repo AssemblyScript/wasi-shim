@@ -13,7 +13,8 @@ const wasi = new WASI({
     "b": 98,
     "c": 99
   },
-  returnOnExit: true
+  returnOnExit: true,
+  version: "preview1"
 });
 const { instance } = await WebAssembly.instantiate(binary, {
   "wasi_snapshot_preview1": wasi.wasiImport
